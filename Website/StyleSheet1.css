@@ -1,0 +1,68 @@
+﻿body {
+    background-color: #ffeddb;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #ffcecc;
+    padding: 10px;
+}
+
+.normal a:link, a:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.normal a:hover {
+    font-size: 110%;
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover.logo{
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #ffcecc;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+input[type=search] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-size: 25px 25px;
+    background-image: url('https://img.icons8.com/external-dreamstale-lineal-dreamstale/2x/external-search-seo-dreamstale-lineal-dreamstale-7.png');
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
